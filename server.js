@@ -19,6 +19,10 @@ app.get('/*', function(req, res) {
   res.sendFile(path.join(__dirname + '/dist/index.html'));
 });
 
+// app.get('/map', function(req, res) {
+//   res.sendFile(path.join(__dirname + '/dist/map.html'));
+// });
+
 
 app.listen(process.env.PORT || 3000);
 

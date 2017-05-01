@@ -1,3 +1,47 @@
 #map {
-	height: 88%;
+	height: 80%;
+	bottom: 0;
+	position: fixed;
+	overflow: inherit;
+}
+
+
+.new-location {
+	margin-bottom: 5px;
+	margin-top: 5px;
+	width: 100%;
+	text-align: center;
+}
+
+.modal-container {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 80%;
+	/*height: 100%;*/
+}
+
+.modals {
+	background:rgba(232,232,232,0.8);
+	height: 200px;
+	left: -50%;
+	padding: 5px;
+	position: relative;
+	overflow-y: auto;
+	z-index: 10;
+}
+
+.closeModal {
+	border: 1px solid black;
+	float: right;
+}
+
+
+.problems-output {
+	width: 100%;
+}
+
+.loc-name {
+	text-align: center;
 }

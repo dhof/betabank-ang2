@@ -1,3 +1,14 @@
-<div id="google-map">
-jfkdljfkjs
+<div>
+	<button (click)="showMe()"></button>
 </div>
+
+<form class="new-location">
+	<input type="text" [(ngModel)]="newLocationName" name="rando" placeholder="Enter Location Name">
+	<input type="submit" (click)="allowNewLocation()" value="Create Location">
+</form>	
+
+
+<div id="map">
+
+</div>
+

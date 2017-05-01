@@ -9,11 +9,15 @@ import { AppRoutingModule } from './app-routing.module';
 
 import { MapService } from './map.service';
 import { MapComponent } from './map.component';
+import { LogInComponent } from './logIn.component';
+import { ProfileComponent } from './profile.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MapComponent,
+    LogInComponent,
+    ProfileComponent,
   ],
   imports: [
     BrowserModule,
